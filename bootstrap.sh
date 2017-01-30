@@ -18,5 +18,5 @@ cat > /home/ubuntu/.vimrc << EOF
 set number
 EOF
 
-# git config
+# setup git config
 source /vagrant/config_git.sh
