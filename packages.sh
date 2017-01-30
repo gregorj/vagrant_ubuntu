@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo apt-get install python-dev python3-dev python-pip
+sudo apt-get install -y python-dev python3-dev python-pip
 
-pip install tox
-pip install virtualenv
+yes | pip install tox virtualenv
