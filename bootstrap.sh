@@ -14,7 +14,7 @@ for key in `ls /vagrant/keys/`; do
 done
 
 # vim setup
-cat > /home/ubuntu/.vimrc << EOF
+cat > ~/.vimrc << EOF
 set number
 EOF
 
