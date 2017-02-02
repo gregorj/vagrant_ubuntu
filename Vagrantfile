@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/trusty/current/trus    ty-server-cloudimg-amd64-vagrant-disk1.box"
+  config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
 
   # If true, then any SSH connections made will enable agent forwarding.
   # Default value: false
